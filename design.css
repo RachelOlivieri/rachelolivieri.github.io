@@ -1,0 +1,41 @@
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: white;
+  background-color: brown;
+}
+
+h1 {
+  text-align: center;
+  font-family: papyrus;
+  font-weight: bold;
+}
+
+a {
+  color: tan;
+}
+
+p {
+  text-align: center;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.profile img {
+  border: 10px dashed #555;
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.projectlist {
+  display: inline-block;
+  text-align: left;
+}
