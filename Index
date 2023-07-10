@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rachel Olivieri</title>
+    <link rel="stylesheet" href="design.css" />
+  </head>
+
+  <!-- the body contains what will be shown in the browser window -->
+  <body>
+    <section class="profile">
+      <img
+        src="Rachel.PNG"
+        alt="Rachels Headshot"
+        width="500"
+        height="500"
+      />
+      <br />
+      <br />
+      <h1>Rachel Olivieri</h1>
+      <p>Software Developer</p>
+      <br />
+    </section>
+
+    <hr color="tan" size="2" width="100%" > 
+
+    <section class="projects">
+      <header id="projectsheader">
+        <h1>Previous Projects</h1>
+      </header>
+      <div class="container">
+        <ul class="projectlist">
+            <li>
+              <a href="https://github.com/raolivi/Out-Guess">Outguess Project</a>
+              <ul>
+                <li>
+                  A game that picks a random number and the user bets on how many
+                  guesses it will take to guess the right number.
+                </li>
+              </ul>
+              <br />
+            </li>
+            <li>
+              <a href="https://github.com/raolivi/Tic-Tac-Toe">Tic-Tac-Toe Game</a>
+
+              <ul>
+                <li>
+                  A standard Tic-Tac-Toe game where the two players can choose what
+                  symbol they want to use and where they wan't to put them on a 3x3
+                  board.
+                </li>
+              </ul>
+            </li>
+            <br />
+            <li>
+              <a href="https://github.com/raolivi/ASCII-Art-Generator">ASCII Art Generator</a>
+              <ul>
+                <li>
+                  A form program that lets the user select a picture and then ASCII art is generated that looks like the picture.
+                </li>  
+              </ul>
+            </li>
+            <br />
+            <li>
+              <a href="https://github.com/raolivi/Pass-the-Pig">Pass the Pig</a>
+              <ul>
+                <li>
+                  A two player version of the game Pass the Pig coded in Python.
+                </li>
+              </ul>
+            </li>
+        </ul>
+        <br />
+    </section>
+
+    <hr color="tan" size="2" width="100%"> 
+
+    <section class="bio">
+      <header id="bioheader">
+        <h1>Bio</h1>
+        <p>
+          My name is Rachel Olivieri and I'm from Starkville, Mississippi. I'm
+          currently a student at Mississippi Coding Academies. I also have a
+          bachelor's degree in food science from Oklahoma State University.
+        </p>
+        <br />
+      </header>
+    </section>
+
+    <hr color="tan" size="2" width="100%"> 
+
+    <section class="contact">
+      <P>Rachel Olivieri</P>
+      <p>Starkville, MS 39759</p>
+      <p>Cell number: 662-312-7464</p>
+      <p><a href="mailto:rachelolivieri97@gmail.com">Email me here!</a></p>
+  </body>
+</html>
